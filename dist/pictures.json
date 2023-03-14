@@ -1,0 +1,42 @@
+{
+
+"results":[
+        {
+            "gender": "male",
+            "name": "Jerry Applegarth",
+            "city": "Roseburg",
+            "state": "Oregon",
+            "country": "United States",
+            "email": "applegarth1630@gmail.com",
+            "age": 76,
+            "cell": "541-643-1630",
+            "picture": "./img/jerry.png"
+               
+        },
+        {
+            "gender": "female",
+            "name": "Judy Applegarth",
+            "city": "Roseburg",
+            "state": "Oregon",
+            "country": "United States",
+            "email": "judyapplegarth@yahoo.com.com",
+            "age": 74,
+            "cell": "541-643-1630",
+            "picture": "./img/judy.png"
+               
+        },
+        {
+            "gender": "female",
+            "name": "Mocha Applegarth",
+            "city": "Roseburg",
+            "state": "Oregon",
+            "country": "United States",
+            "email": "mochaplegarth1630@gmail.com",
+            "age": 3,
+            "cell": "541-643-1630",
+            "picture": "./img/mocha.png"
+               
+        }
+    ] 
+}
+    
