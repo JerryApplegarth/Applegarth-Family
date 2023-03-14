@@ -1,14 +1,17 @@
+
+
+
 function fetchUser() {
     fetch('./pictures.json')
     .then((res) => res.json())
     .then((data) => {
         
-        displayerUser(data.results[0]);
-        
-    });
+        displayUser(data.results[2]);
+     });
 }
 
-function displayerUser(user) {
+function displayUser(user) {
+    
     const userDisplay = document.querySelector('#user');
 
     // if(userDisplay.gender  === 'male') {
@@ -30,9 +33,5 @@ function displayerUser(user) {
 }
 
 document.querySelector('#generate').addEventListener('click', fetchUser);
-
-
-
-
 
 fetchUser();
